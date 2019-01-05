@@ -1,0 +1,78 @@
+<!--
+PROPRIETARY / CONFIDENTIAL.
+// Use of this product is subject to license terms.
+// Copyright © 2016-2018 Constantin Weitzmann.
+// All rights reserved.
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wahrheit-oder-Pflicht</title>
+    <link rel="stylesheet" href="css/designwahrheitoderpflicht.css">
+    <link rel="SHORTCUT ICON" href="pictures/tab.jpg" type="image/x-icon">
+    <script language="javascript" type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script type = "text/javascript" src = "javascript/jquery-ui.min.js">
+  </script>
+    <script language="javascript" type="text/javascript" src="javascript/systemwahrheitoderpflicht.js"></script>
+    <script language="javascript" type="text/javascript" src="javascript/aufgabenwop.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display+SC" rel="stylesheet"
+  </head>
+  <body>
+    <div class="header">
+        <text id="uebertxt">Wahrheit oder Pflicht</text>
+        <text id="anleitungstxt">Willkommen bei <br>-Wahrheit oder Pflicht-</text>
+    </div>
+
+<div class="row">
+  <div class="column">
+    <div class="card" id="card1" style="padding-bottom: 28%">
+        <button id="spielen1">Spielen</button>
+    </div>
+
+    <div class="card" id="card2">
+        <div id="nameneintrag">
+            <text id="namenueberschrift">Spielernamen:</text>
+            <input id="spieler" maxlength="6" placeholder="Namen"><text id="kreuz">X</text>
+            <button id="speichern">Hinzufügen</button>
+            <button id="allespieler">Spielen!</button>
+            <text id="hinweistxt">Du hast keinen oder nur einen Spieler eingegeben!</text>
+        </div>    
+    </div>
+
+    <div class="card" id="card3">
+        <text id="dranist"></text>
+        <div id="aufgauswahl">
+            <text id="aktaufgabe"></text>
+            <button id="los">Losen</button>
+        </div> 
+        <text id="punktetxt">Punkte:</text>   
+        <text id="aufgabetxt">Aufgabe:</text>   
+        <div id="aufgabenbox">            
+            <text id="punkte"></text>
+            <text id="aufgabe"></text>
+            <button id="geschafft">Geschafft</button>   
+            <button id="trinken">Fail</button>   
+        </div>
+        <img id="ende" src="pictures/endpfeil.png">
+        <img id="endezurueck" src="pictures/endpfeil.png">
+        <button id="erg">Ergebnis</button>
+        <button id="home">Beenden</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+        <p style="opacity: 0.7; font-size: 12px; text-align: center"> 
+        <a href ="impressum.html" target="_blank" style="text-decoration: underline; color: #000000">Impressum</a>
+        Copyright © 2016-2018 Constantin Weitzmann. All rights reserved. This site was developed by Constantin W.
+    </p>
+</div>
+  </body>
+</html>

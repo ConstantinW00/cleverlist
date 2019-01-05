@@ -1,0 +1,248 @@
+<!--
+PROPRIETARY / CONFIDENTIAL.
+// Use of this product is subject to license terms.
+// Copyright © 2016-2018 Constantin Weitzmann.
+// All rights reserved.
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=1024" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+  <meta charset="UTF-8">
+  <title>Flaschendrehen - Spiele-aus-Spass</title>
+  <link rel="stylesheet" href="css/designflasch.css">
+  <link rel="SHORTCUT ICON" href="pictures/tab.jpg" type="image/x-icon">
+  <script language="javascript" type="text/javascript" src="javascript/jquery.min.js"></script>
+  <script type = "text/javascript" src = "javascript/jquery-ui.min.js">
+   </script>
+   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <script language="javascript" type="text/javascript" src="javascript/systemflasch.js"></script>
+  <script language="javascript" type="text/javascript" src="javascript/aufgabenflasch.js"></script>
+ </head>
+  <body>
+  
+	<div id="alles">
+	<div id="deko1"></diV>
+		<div id="header">
+			<h1 id="ueberschr"><span>Flaschendrehen</span></h1>
+		</div>
+		<div id="strtbutt">
+			<button id="starterst">Spiel starten</button>
+			<button id="starterst1">Home</button>
+			<button id="eigene">Eigene Aufgaben</button>
+		</div>
+		<div id="eingaben">
+			<button id="spieler2">2 Spieler</button>
+			<button id="spieler3">3 Spieler</button>
+			<button id="spieler4">4 Spieler</button>
+			<br>
+			<button id="spieler5">5 Spieler</button>
+			<button id="spieler6">6 Spieler</button>
+		</div>
+			<button id="menuhilfe"><img src="pictures/hilfeflasch.jpg" width="20px" height="30px"></button>
+			<button id="wahlhilfe"><img src="pictures/hilfeflasch.jpg" width="20px" height="30px"></button>
+			<button id="namenfarbhilfe"><img src="pictures/hilfeflasch.jpg" width="20px" height="30px"></button>
+			<button id="eigenaufghilfe"><img src="pictures/hilfeflasch.jpg" width="20px" height="30px"></button>
+			<img id="endkreuz" src="pictures/endkreuz.jpg">
+		<div id="nameneingabe">
+
+			<div id="in1">
+				<input id="spl1" placeholder="Spielername1" maxlength="10">
+				<img id="farbesp1" src="pictures/farben.jpg">
+					<div id="farbpalette1">
+						<img onload="loadimage1()" id="farbwhb1" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb1" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo1" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr1" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru1" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra1" src="pictures/grau.png">
+					</div>
+			</div>
+			<div id="in2">
+				<input id="spl2" placeholder="Spielername2" maxlength="10">
+				<img id="farbesp2" src="pictures/farben.jpg">
+					<div id="farbpalette2">
+						<img onload="loadimage1()" id="farbwhb2" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb2" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo2" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr2" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru2" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra2" src="pictures/grau.png">
+					</div>
+			</div>
+			<div id="in3">
+				<input id="spl3" placeholder="Spielername3" maxlength="10">
+				<img id="farbesp3" src="pictures/farben.jpg">
+					<div id="farbpalette3">
+						<img onload="loadimage1()" id="farbwhb3" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb3" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo3" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr3" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru3" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra3" src="pictures/grau.png">
+					</div>
+			</div>
+			<div id="in4">
+				<input id="spl4" placeholder="Spielername4" maxlength="10">
+				<img id="farbesp4" src="pictures/farben.jpg">
+					<div id="farbpalette4">
+						<img onload="loadimage1()" id="farbwhb4" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb4" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo4" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr4" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru4" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra4" src="pictures/grau.png">
+					</div>
+			</div>
+			<div id="in5">
+				<input id="spl5" placeholder="Spielername5" maxlength="10">
+				<img id="farbesp5" src="pictures/farben.jpg">
+					<div id="farbpalette5">
+						<img onload="loadimage1()" id="farbwhb5" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb5" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo5" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr5" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru5" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra5" src="pictures/grau.png">
+					</div>
+			</div>
+			<div id="in6">
+				<input id="spl6" placeholder="Spielername6" maxlength="10">
+				<img id="farbesp6" src="pictures/farben.jpg">
+					<div id="farbpalette6">
+						<img onload="loadimage1()" id="farbwhb6" src="pictures/hellblau.png">
+						<img onload="loadimage1()" id="farbwdb6" src="pictures/dunkelblau.png">
+						<img onload="loadimage1()" id="farbwo6" src="pictures/orange.png">
+						<img onload="loadimage1()" id="farbwr6" src="pictures/rot.png">
+						<img onload="loadimage1()" id="farbwgru6" src="pictures/dunkelgruen.png">
+						<img onload="loadimage1()" id="farbwgra6" src="pictures/grau.png">
+					</div>
+			</div>
+				
+			
+		</div>
+		<div id="fragenzufuegen">
+			<h2 id="aufg">Fragen hinzufügen</h2>
+			<br>
+			<input id="aufgabezu" placeholder="Aufgabe eintragen">
+			<br>
+			<br>
+			<button id="eintragen">Aufgabe hinzufügen</button>
+		</div>
+		<div id="deck">
+		</div>
+		<div id="spielfeld1">
+			<div id="linkespalte">
+				<div id="linksoben">
+				</div>	
+				<div id="mitteoben">
+					<br id="14"><br id="24"><br id="34">
+					<p id="spielervier"><big></big></p>
+				</div>
+				<div id="mitteunten">
+					<br id="18"><br id="28"><br id="38">
+					<p id="spieleracht"><big></big></p>
+				</div>
+				<div id="linksunten">
+					<br>
+					<p id="spielersechs"><big></big></p>
+				</div>
+			</div>
+			<div id="spaltefuermitte">
+				<div id="spaltemitteoben">
+					<div id="mittemitteoben">
+					<br id="11"><br id="21"><br id="31">
+						<p id="spielereins"><big></big></p>
+					</div>
+					<div id="mitteobenlinks">
+						
+					</div>
+					<div id="mitteobenrechts">
+						
+					</div>
+				</div>
+				<canvas id="drehboden">
+					Ihr Browser unterstützt kein Canvas
+				</canvas>
+				<div id="spaltemitteunten">
+					<div id="mittemitteunten">
+						<br id="1.2">
+						<p id="spielerzwei"><big></big></p>
+					</div>
+					<div id="mitteuntenlinks">
+						
+					</div>
+					<div id="mitteuntenrechts">
+						
+					</div>
+			</div>
+			</div>
+			<div id="spalterechts">
+				<div id="rechtsoben">
+					<button id="spielhilfe"><img src="pictures/hilfeflaschaufg.jpg" width="20px" height="30px"></button>
+				</div>	
+				<div id="mitterechtsoben">
+					<br id="13"><br id="23"><br id="33">
+					<p id="spielerdrei"><big></big></p>
+				</div>
+				<div id="mitterechtsunten">
+					<br id="17"><br id="27"><br id="37">
+					<p id="spielersieben"><big></big></p>
+				</div>
+				<div id="rechtsunten">
+					<br>
+					<p id="spielerfuenf"><big></big></p>
+				</div>
+			</div>
+		</div>		
+		<div id="punktestand">
+			<h1 id="pnktst">Aufgabe:</h1>
+			<table id="aufgaben">
+				<tr>
+					<td id="sp1">Aufgabe:</td>
+				</tr>
+				<tr>
+					<td id="pkt1"></td>
+				</tr>
+				<tr>
+					<td id="sp2">Aufgabe</td>
+				</tr>
+				<tr>
+					<td id="pkt2"></td>
+				</tr>
+				<tr>
+					<td id="sp3">von</td>
+				</tr>
+				<tr>
+					<td id="pkt3"></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+			</table>	
+		</div>
+		<div id="button1">
+			<button id="spielen">Spielen</button>
+		</div>
+		<div id="button2">
+			<button id="spielen1">Spielen</button>
+		</div>
+	<div id="deko2"></diV>
+		<div id="ende">
+            <text>  
+            	<a href="impressum.html">Impressum</a>
+
+                Copyright © 2016-2018 Constantin Weitzmann.
+
+                All rights reserved.
+
+                This game was developed by Constantin W.
+            </text>
+        </div>
+	</div>
+  </body>
+</html>

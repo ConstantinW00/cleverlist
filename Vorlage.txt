@@ -1,0 +1,119 @@
+﻿Html-code:
+
+
+<!--
+PROPRIETARY / CONFIDENTIAL.
+// Use of this product is subject to license terms.
+// Copyright © 2016 Constantin Corporation.
+// All rights reserved.
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=1024" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+  <meta charset="UTF-8">
+  <title>Support/Spiele-aus-Spass</title>
+  <link rel="stylesheet" href="css/designsupport.css">
+  <link rel="SHORTCUT ICON" href="pictures/tab.ico" type="image/x-icon">
+  <script language="javascript" type="text/javascript" src="javascript/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="javascript/systemsupp.js"></script>
+ </head>
+  <body>
+<div id="alles">
+			
+  </body>
+</html>
+
+
+css-code:
+
+
+body{
+	background-color: #ccccb3;
+}
+
+div#alles{
+	width: 1080px;
+	height: 720px;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-top: auto;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+div#ueberschr{
+	width: 650px;
+	height: 130px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 15px;
+	background-color: #101423;
+	border-radius: 10px;
+	text-align: center;
+}
+
+div#alles2{
+	width: 680px;
+	height: 580px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 40px;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+
+div#deko1{
+	width: 10px;
+	height: 690px;
+	float: left;
+	margin-left: 50px;
+	background-color: gray;
+}
+
+div#deko2{
+	width: 10px;
+	height: 660px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: orange;
+}
+
+div#deko3{
+	width: 10px;
+	height: 690px;
+	float: right;
+	margin-right: 50px;
+	background-color: gray;
+}
+
+div#deko4{
+	width: 10px;
+	height: 650px;
+	float: right;
+	margin-right: 30px;
+	background-color: orange;
+}
+
+div#deko5{
+	width: 980px;
+	height: 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	background-color: gray;
+}
+
+div#deko6{
+	width: 890px;
+	height: 10px;
+	float: left;
+	margin-top: 30px;
+	background-color: orange;
+}

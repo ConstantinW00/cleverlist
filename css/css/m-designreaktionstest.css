@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: Georgia;
+    padding: 0;
+    background: #013243;
+    margin: 0; 
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #013243;
+    margin-top: 2%;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+
+/* Right column */
+.midcolumn {
+    float: left;
+    width: 100%;
+    background-color: #013243;
+    padding: 0;
+}
+
+
+/* Add a card effect for articles */
+.card {
+    padding: 0;
+    margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.6;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .midcolumn{   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+a:link    {color:lightgray;    text-decoration:none; }
+a:visited {color:lightgray;    text-decoration:none; }
+a:hover   {color:#02025a; text-decoration:underline; }
+
+h2{
+    font-size: 20px; 
+    font-family: Ethnocentric;
+    color: #000000;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 20px; 
+    font-family: Ethnocentric;
+    color: #000000;
+    opacity: 1;
+}
+
+button#spielstart{
+    width: 70%;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 15%;
+    color: #173e43;
+    background-color: #fae596;
+    font-size: 40px;
+    font-family: Georgia;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 3px #fae596;
+}
+
+button#los{
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+    color: #173e43;
+    background-color: #fae596;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 2px;
+    border: none;
+}
+
+button#reaktionsfeld{
+    width: 70%;
+    height: 180px;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 7%;
+    text-align: center;
+    background-color: #24252a;
+}
+
+button#messen{
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+    color: #173e43;
+    background-color: #fae596;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 2px;
+    border: none;
+}
+
+text#erklaerung{
+    width: 80%;
+    height: 20px;
+    margin-top: 2%;
+    margin-left: 1%;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    float: left;
+    padding: 5px;
+    font-weight: bold;
+}
+
+text#erklaertxt{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 0;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    float: left;
+    padding: 2%;
+}
+
+text#name{
+    width: 40%;
+    height: auto;
+    margin-top: 0%;
+    margin-left: 5%;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    background-color: #24252a;
+    float: left;
+    padding: 2%;
+}
+
+text#zeit{
+    width: 40%;
+    height: auto;
+    margin-top: 0%;
+    margin-left: 5%;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    background-color: #24252a;
+    float: left;
+    padding: 2%;
+}
+
+text#allezeiten{
+    width: 47%;
+    height: 100px;
+    overflow: auto;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    background-color: #24252a;
+    float: left;
+    padding: 1%;
+}
+
+text#bestezeiten{
+    width: 47%;
+    height: 100px;
+    overflow: auto;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #81cfe0;
+    font-size: 16px;
+    font-family: Georgia;
+    text-align: left;
+    background-color: #24252a;
+    float: left;
+    padding: 1%;
+}
+
+input#spielername{
+    width: 70%;
+    height: 40px;
+    margin-top: 10%;
+    margin-left: 15%;
+    color: #dddddd;
+    background-color: #24252a;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    float: left;
+}
+
+img#ende{
+    width: 20%;
+    height: 15px;
+    margin-left: 40%;
+    float: left;
+    margin-top: 4%;
+    opacity: 0.4;
+}
+
+img#endezurueck{
+    width: 20%;
+    height: 15px;
+    margin-left: 40%;
+    float: left;
+    margin-top: 6%;
+    opacity: 0.4;
+    transform: scale(-1);
+}
+
+button#home{
+    width: 40%;
+    height: 30px;
+    border: 1px solid black;
+    color: #001111;
+    font-size: 22px;
+    font-family: 'Abril Fatface', cursive;
+    float: left;
+    margin-top: 5%;
+    margin-left: 30%;
+    background-color: #005970;
+    border-radius: 2px;
+    box-shadow: 1px 1px 7px 1px #005970;
+}

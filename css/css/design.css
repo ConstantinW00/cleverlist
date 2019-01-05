@@ -1,0 +1,477 @@
+body{
+	background-color: #ccccb3;
+}
+
+div#ende{
+	margin-top: 780px;
+	float: left;
+	width: 1065px;
+	height: 20px;
+	background-color: gray;
+	color: #FFE0F2;
+	font-family: Arial;
+	text-align: center;
+	position: absolute;
+}
+
+div#alles{
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	width: 1080px;
+	height:720px;
+}
+
+div#punkte{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 1060px;
+	height:180px;
+	background-color: #e6ffff;
+	float: right;
+	border-radius: 10px;
+}
+
+div#standcom{
+	margin-top: 70px;
+	margin-left: 10px;
+	width: 250px;
+	height: 100px;
+	background-color: #b3ffff;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 20px;
+	
+}
+
+div#standspi{
+	margin-top: 70px;
+	margin-right: 10px;
+	width: 250px;
+	height: 100px;
+	background-color: #b3ffff;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 20px;
+}
+
+div#scstpa{
+	margin-top: 10px;
+	width: 540px;
+	height: 60px;
+	color: #001a1a;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 40px;	
+	text-decoration: underline;
+}
+
+div#match{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+	float: left;
+	width: 240px;
+	height: 510px;
+	background-color: gray;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+
+div#comaus{
+	border-radius: 10px;
+	width: 11.25em;
+	height: 11.25em;
+	margin-left: 27px;
+	margin-top: 22px;
+	float: left;
+	border: 6px solid;
+}
+
+div#spiaus{
+	border-radius: 10px;
+	width: 180px;
+	height: 180px;
+	margin-left: 27px;
+	margin-top: 13px;
+	float: left;
+	border: 6px solid;
+}
+
+div#wlzae{
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	margin-left: 42px;
+	margin-top: 22px;
+	float: left;
+	border: 6px solid;
+}
+
+div#comwa{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 300px;
+	height: 510px;
+	background-color: #e6ffff;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Impact;
+	text-decoration: underline;
+}
+
+div#spiwa{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 300px;
+	height: 510px;
+	background-color: #e6ffff;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Impact;
+	text-decoration: underline;
+}
+
+div#spiwadeck{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 300px;
+	height: 510px;
+	background-color: #e6ffff;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Impact;
+	text-decoration: underline;
+}
+
+div#namese{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+	float: left;
+	width: 240px;
+	height: 510px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;
+}
+
+div#namese2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+	float: left;
+	width: 240px;
+	height: 510px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;
+}
+
+div#spstbutton{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+	float: left;
+	width: 240px;
+	height: 510px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;	
+}
+
+div#neustart{
+	margin-top: 127.5px;
+	margin-left: 110px;
+	float: left;
+	width: 240px;
+	height: 255px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;	
+}
+
+
+div#nochzuspielen{
+	float: left;
+	width: 240px;
+	height: 80px;
+	margin-top: 20px;
+	background-color: #ffffff;
+	margin-left: 150px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 17px;
+}
+
+div#scstpaerst{
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 1000px;
+	height: 180px;
+	color: #001a1a;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 80px;	
+	text-decoration: underline;
+}
+
+div#fensterna{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+	width: 222px;
+	height: 120px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;
+	border: 5px dashed #ff0000;
+	color: #ff3333;
+	font-family: Impact;
+	font-size: 20px;
+}
+
+div#fensterru{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+	width: 222px;
+	height: 150px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;
+	border: 5px dashed #ff0000;
+	color: #ff3333;
+	font-family: Impact;
+	font-size: 20px;
+}
+
+div#erg{
+	border-radius: 10px;
+	width: 230px;
+	height: 70px;
+	margin-top: 213px;
+	float: left;
+	border: 6px dashed;
+	position: absolute;
+	background-color: grey;
+	text-align: center;
+	color: #ffa31a;
+	font-family: Impact;
+}
+
+div#erg1{
+	border-radius: 10px;
+	width: 230px;
+	height: 70px;
+	float: left;
+	margin-top: 213px;
+	border: 6px dashed;
+	position: absolute;
+	background-color: grey;
+	text-align: center;
+	color: #ffa31a;
+	font-family: Impact;
+}
+
+div#erg2{
+	border-radius: 10px;
+	width: 225px;
+	height: 70px;
+	float: left;
+	margin-top: 213px;
+	border: 6px dashed;
+	position: absolute;
+	background-color: grey;
+	text-align: center;
+	color: #ffa31a;
+	font-family: Impact;
+}
+
+div#zlralert{
+	margin-top: 210px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+	width: 222px;
+	height: 70px;
+	background-color: #808080;
+	border-radius: 10px;
+	text-align: center;
+	border: 5px dashed #ffa31a;
+	color: #ffa31a;
+	font-family: Impact;
+	font-size: 17px;
+	position: absolute;
+}
+
+button#wdh{
+	width: 200px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 25px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#verlassen{
+	width: 200px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 25px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button{
+	background-color: #e6ffff; 
+	border: 1px ;
+ }
+
+canvas#spielfeld1{ 
+	width:180px;
+	height:180px;
+}
+
+canvas#spielfeld2{ 
+	width:180px;
+	height:180px;
+}
+
+canvas#zaewilo{ 
+	width:150px;
+	height:50px;
+}
+
+input#benutzer{
+	width: 150px;
+	height: 30px;
+}
+
+input#runden{
+	width: 150px;
+	height: 30px;
+}
+
+input#spiname1{
+	text-align: center;
+	width: 150px;
+	background-color: #b3ffff;
+	font-size: 15px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#buttonstart{
+	width: 220px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+button#buttondrueber{
+	width: 220px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+button#buttonmulti{
+	width: 220px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 30px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	float: left;
+}
+
+button#fertig{
+	width: 120px;
+	height: 20px;
+	background-color: #1a1aff;
+	font-size: 15px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#spielst{
+	width: 120px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 15px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#home{
+	width: 220px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#tutorial{
+	width: 220px;
+	height: 50px;
+	background-color: #b3ffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#weiter{
+	width: 120px;
+	height: 20px;
+	background-color: #1a1aff;
+	font-size: 15px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}
+
+button#stpbutt{
+	width: 120px;
+	height: 20px;
+	background-color: #1a1aff;
+	font-size: 15px;
+	text-align: center;
+	font-family: Broadway;
+	border-radius: 10px;
+}

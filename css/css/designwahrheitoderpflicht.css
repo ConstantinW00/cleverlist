@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: Georgia;
+    padding: 0;
+    background: #0097a3;
+    margin: 0;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 0px;
+    text-align: center;
+    background: #0097a3;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* Style the top navigation bar */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.column {   
+    float: left;
+    width: 100%;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: #0097a3;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+	position: fixed;
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    opacity: 0.7;
+    bottom: 0;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+div#nameneintrag{
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin-left: 0%;
+	padding-top: 1%;
+}
+
+div#aufgauswahl{
+	width: 90%;
+	height: 90px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: #101423;
+	text-align: center; 
+	border-radius: 25px;
+}
+
+
+text#namenueberschrift{
+	text-align: center;
+	color: #000000;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 23px;
+	margin-left: 5%;
+	font-weight: bold;
+	float: left;
+	text-decoration: underline;
+}
+
+text#kreuz{
+	text-align: center;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 45px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 3%;
+}
+
+text#uebertxt{
+	text-align: center;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	margin-left: 0%;
+	float: left;
+	margin-top: 3%;
+}
+
+text#anleitungstxt{
+	color: lightgray;
+	opacity: 0.9;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 15px;
+	margin-left: 5%;
+	float: left;
+	width: 90%;
+	margin-top: 8%;
+}
+
+text#aktaufgabe{
+	text-align: center;
+	color: #000000;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 0%;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	background-color: #98B4D4;
+	border-radius: 10px;
+	padding-top: 3%;
+}
+
+text#punkte{
+	text-align: center;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 35px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 5%;
+	width: 20%;
+	height: 65px;
+	border: 1px solid #101423;
+	border-radius: 10px;
+	padding-top: 2%;
+}
+
+text#aufgabe{
+	text-align: center;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 5%;
+	width: 65%;
+	height: 120px;
+	border: 1px solid #101423;
+	border-radius: 10px;
+	padding-top: 2%;
+	overflow: auto;
+}
+
+text#punktetxt{
+	text-align: left;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 18px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 5%;
+	width: 20%;
+	height: 25px;
+	border-radius: 10px;
+	padding-top: 2%;
+}
+
+text#aufgabetxt{
+	text-align: left;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 18px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 5%;
+	width: 60%;
+	height: 25px;
+	border-radius: 10px;
+	padding-top: 2%;
+}
+
+text#dranist{
+	text-align: center;
+	color: #000000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+	margin-left: 20%;
+	float: left;
+	margin-top: 5%;
+	width: 60%;
+	height: 40px;
+	border: 1px solid #101423;
+	border-radius: 10px;
+	padding-top: 2%;
+}
+
+text#hinweistxt{
+	text-align: center;
+	color: red;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+	margin-left: 20%;
+	float: left;
+	margin-top: 5%;
+	width: 60%;
+	height: 40px;
+	padding-top: 2%;
+}
+
+
+button#speichern{
+	width: 40%;
+	height: 40px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-left: 5%; 
+	margin-top: 10%;
+	background-color: #c7002d;
+	border-radius: 5px;
+	box-shadow: 1px 1px 7px 1px #c7002d;
+}
+
+button#allespieler{
+	width: 40%;
+	height: 40px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-left: 5%; 
+	margin-top: 10%;
+	background-color: #c7002d;
+	border-radius: 5px;
+	box-shadow: 1px 1px 7px 1px #c7002d;
+}
+
+button#spielen1{
+	width: 60%;
+	height: 80px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 30px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	background-color: #c7002d;
+	margin-top: 15%;
+	margin-left: 20%;
+	border-radius: 15px;
+	box-shadow: 1px 1px 7px 1px #c7002d;
+}
+
+button#los{
+	width: 40%;
+	height: 30px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-left: 30%;
+	background-color: #005970;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px 1px #005970;
+}
+
+button#geschafft{
+	width: 40%;
+	height: 30px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	background-color: #005970;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px 1px #005970;
+}
+
+button#trinken{
+	width: 40%;
+	height: 30px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-top: 5%;
+	margin-left: 10%;
+	background-color: #005970;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px 1px #005970;
+}
+
+button#home{
+	width: 40%;
+	height: 30px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-top: 5%;
+	margin-left: 30%;
+	background-color: #005970;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px 1px #005970;
+}
+
+button#erg{
+	width: 40%;
+	height: 30px;
+	border: 1px solid black;
+	color: #001111;
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	margin-top: 5%;
+	margin-left: 30%;
+	background-color: #005970;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px 1px #005970;
+}
+
+input#spieler{
+	width: 70%;
+	height: 55px;
+	border: 2px solid #c7002d;
+	color: #001111;
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	background-color: #0097a3;
+	margin-top: 4%;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+
+img#ende{
+	width: 20%;
+	height: 15px;
+	margin-left: 40%;
+	float: left;
+	margin-top: 4%;
+	opacity: 0.4;
+}
+
+img#endezurueck{
+	width: 20%;
+	height: 15px;
+	margin-left: 40%;
+	float: left;
+	margin-top: 6%;
+	opacity: 0.4;
+	transform: scale(-1);
+}

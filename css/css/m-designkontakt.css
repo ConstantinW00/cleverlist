@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: Georgia;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 0px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #101423;
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+/* mid column */
+.midcolumn {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+
+.img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+/* image */
+.links{
+    display: inline-block;
+    position: relative;
+    width: 100%; 
+    height: auto;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .midcolumn {   
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+a:link    {color:lightgray;    text-decoration:none; }
+a:visited {color:lightgray;    text-decoration:none; }
+a:hover   {color:#02025a; text-decoration:underline; }
+
+h2{
+    font-size: 25px; 
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 25px; 
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    opacity: 1;
+}
+
+text{
+    width: 50%;
+    text-align: center; 
+}

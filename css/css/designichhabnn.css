@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: Georgia;
+    padding: 10px;
+    background: #0082B2;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #0082B2;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+
+/* Right column */
+.midcolumn {
+    float: left;
+    width: 98%;
+    background-color: #0082B2;
+    padding-left: 15px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+    padding: 0%;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #E1F5FE;
+    margin-top: 10%;
+    opacity: 0.5;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .midcolumn{   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+a:link    {color:lightgray;    text-decoration:none; }
+a:visited {color:lightgray;    text-decoration:none; }
+a:hover   {color:#02025a; text-decoration:underline; }
+
+h2{
+    font-size: 20px; 
+    font-family: Ethnocentric;
+    color: #000000;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 20px; 
+    font-family: Ethnocentric;
+    color: #000000;
+    opacity: 1;
+}
+
+button#spielen{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    color: #001111;
+    font-size: 150%;
+    font-family: Baby Kruffy;
+    display: inline-block;
+    background-color: #29B6F6;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 1px #29B6F6;
+}
+
+div#frage{
+    min-width: 100%;
+    min-height: 100px;
+    border: none;
+    color: #001111;
+    font-size: 25px;
+    font-family: Georgia;
+    display: inline-block;
+    background-color: #4FC3F7;
+    margin-top: 10px;
+    margin-left: 0%;
+    border-radius: 5px;
+}
+
+button#naechste{
+    width: 70%;
+    height: 50px;
+    border: 1px solid black;
+    color: #001111;
+    font-size: 100%;
+    font-family: Bahnschrift;
+    display: inline-block;
+    background-color: #29B6F6;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 1px #29B6F6;
+}
+
+div#spielfeld{
+    width: 100%;
+    margin-top: 20px;
+}
+
+p{
+    display: inline-block;
+}
